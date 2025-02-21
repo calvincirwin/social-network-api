@@ -1,6 +1,6 @@
-## **Social Network API**
+# Social Network API
 
-### **Description**
+## Description
 
 This is a backend API for a social networking application. It allows users to:
 
@@ -14,45 +14,26 @@ Built using:
 - Node.js
 - Express.js
 - MongoDB & Mongoose ODM
-* * *
 
-### **Installation**
+---
+
+## Installation
 
 1. **Clone the repository**
-    
-        bash
-    
-    CopyEdit
-    
-    git clone https://github.com/calvincirwin/social-network-api.git
-    cd social-network-api
-    
+   ```bash
+   git clone https://github.com/calvincirwin/social-network-api.git
+   cd social-network-api
 
 2. **Install dependencies**
-    
-        bash
-    
-    CopyEdit
-    
+    ```bash
     npm install
-    
-
 3. **Start the server**
-    
-        bash
-    
-    CopyEdit
-    
-    npm run dev
-    
-
+    ```bash
+	npm run dev
 The API will run on `http://localhost:3001`.
+## API Routes
 
-* * *
-
-### **API Routes**
-
-#### **Users**
+### Users
 
 | Method | Endpoint | Description | 
 | ---- | ---- | ----  |
@@ -64,7 +45,7 @@ The API will run on `http://localhost:3001`.
 | POST | `/api/users/:userId/friends/:friendId` | Add a friend | 
 | DELETE | `/api/users/:userId/friends/:friendId` | Remove a friend | 
 
-#### **Thoughts**
+### Thoughts
 
 | Method | Endpoint | Description | 
 | ---- | ---- | ----  |
@@ -74,7 +55,7 @@ The API will run on `http://localhost:3001`.
 | PUT | `/api/thoughts/:thoughtId` | Update a thought | 
 | DELETE | `/api/thoughts/:thoughtId` | Delete a thought | 
 
-#### **Reactions**
+### Reactions
 
 | Method | Endpoint | Description | 
 | ---- | ---- | ----  |
@@ -83,7 +64,7 @@ The API will run on `http://localhost:3001`.
 
 * * *
 
-### **Technologies Used**
+## Technologies Used
 
 - Node.js - Backend runtime
 - Express.js - Web framework for routing
@@ -92,13 +73,13 @@ The API will run on `http://localhost:3001`.
 - Nodemon - Auto-restart during development
 * * *
 
-### **License**
+## License
 
 This project is licensed under the MIT License.
 
 * * *
 
-### **Questions?**
+## Questions?
 
 If you have any questions, feel free to reach out:
 
