@@ -16,6 +16,10 @@ Built using:
 - MongoDB & Mongoose ODM
 
 ---
+## Walktrhough Video
+[Social Network API](https://www.youtube.com/watch?v=cP3lgTyIKZU)
+
+---
 
 ## Installation
 
@@ -85,3 +89,4 @@ If you have any questions, feel free to reach out:
 
 - **GitHub**: [calvincirwin](https://github.com/calvincirwin)
 - **Email**: calvincirwin@gmail.com
+
